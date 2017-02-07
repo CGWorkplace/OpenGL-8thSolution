@@ -17,7 +17,7 @@
 #ifdef _MSC_VER
 #  ifdef _DEBUG
 #    if (_MSC_VER >= 1600)
-#      pragma comment (lib, "glew_static_vs2010_d.lib")
+#      pragma comment (lib, "glew32sd.lib")
 #    else
 #      pragma comment (lib, "glew_static_d.lib")
 #    endif
@@ -39,13 +39,13 @@
 #ifdef _MSC_VER
 #  ifdef _DEBUG
 #    if (_MSC_VER >= 1600)
-#      pragma comment (lib, "freeglut_static_vs2010_d.lib")
+#      pragma comment (lib, "freeglut_staticd.lib")
 #    else
 #      pragma comment (lib, "freeglut_static_d.lib")
 #    endif
 #  else
 #    if (_MSC_VER >= 1600)
-#      pragma comment (lib, "freeglut_static_vs2010.lib")
+#      pragma comment (lib, "freeglut_staticd.lib")
 #    else
 #      pragma comment (lib, "freeglut_static.lib")
 #    endif
