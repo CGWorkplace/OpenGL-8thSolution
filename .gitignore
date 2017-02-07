@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.ilk
+*.log
+FirstProgram/Debug/FirstProgram.obj
+*.tlog
+FirstProgram/Debug/stdafx.obj
+*.idb
+*.opendb
+OpenGL-8thSolution.VC.db
+*.pdb
